@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(228, 192, 210);
+}
+
+.container {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.image_container {
+    padding-right: 10px;
+}
+
+.recipe_container {
+    padding: 5px;
+}
+
+.recipe_container article {
+    margin-left: 10px;
+}
+
+.recipe_container article a {
+    color: rgb(2, 2, 14);
+    text-decoration: none;
+}
+
+.recipe_container article a span {
+    color: darkred;
+    padding: 5px;
+}
+
+img {
+    width: 300px;
+}
